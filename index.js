@@ -41,6 +41,7 @@ function acceptsArguments(value1, value2) {
             return "null"
         }
 
+
     } else {
         return "null"
     }
