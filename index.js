@@ -40,8 +40,6 @@ function acceptsArguments(value1, value2) {
         if (value1 === value2) {
             return "null"
         }
-
-
     } else {
         return "null"
     }
