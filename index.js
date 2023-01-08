@@ -19,8 +19,6 @@ function returnValue(number) {
 console.log(returnValue(number1));
 
 
-
-
 //............Task 2 .........//
 //написати функцію, яка приймає два аргументи і, якщо аргументи одного типу,
 //то повертає той, який має більше значення (якщо значення рівні - повертаємо null),
@@ -42,9 +40,10 @@ function acceptsArguments(value1, value2) {
         if (value1 === value2) {
             return "null"
         }
-        } else {
-            return "null"
-        }
+    } else {
+        return "null"
     }
+}
+
 console.log(acceptsArguments(value1, value2));
 
